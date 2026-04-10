@@ -30,3 +30,24 @@
 *.exe
 *.out
 *.app
+
+# Arduino / ESP32 build artifacts
+*.elf
+*.bin
+*.hex
+*.map
+*.lss
+*.sym
+*.lst
+
+# Arduino IDE build / cache
+build/
+*.build/
+.cache/
+
+# IDE / OS junk
+*.swp
+*.swo
+*.tmp
+.DS_Store
+Thumbs.db
